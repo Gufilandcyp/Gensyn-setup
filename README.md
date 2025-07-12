@@ -234,3 +234,9 @@ screen -XS screen-id quit
 # You can kill by name
 screen -XS swarm quit
 ```
+### 2- Update Node Repository
+**Method 1** (test this first): If you cloned official repo with no local changes:
+```bash
+cd rl-swarm
+git pull
+```
